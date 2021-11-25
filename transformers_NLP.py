@@ -1,10 +1,10 @@
 #Build an application using streamlit that allows users to select the available pipelines in transformers and perform the NLP operations.
 #import libraries (transformers and streamlit in this case)
-from transformers import pipeline
+#from transformers import pipeline
 from operator import itemgetter
 import streamlit as st
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 #setup streamlit app to take user input and offer the different transformers in the sidebar
 template = """<div style = "background-color:red; padding:1px;">
                 <h2 style = "color=:white; text-align:center">Transformers App </h2>
