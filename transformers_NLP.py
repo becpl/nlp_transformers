@@ -1,6 +1,6 @@
 #Build an application using streamlit that allows users to select the available pipelines in transformers and perform the NLP operations.
 #import libraries (transformers and streamlit in this case)
-#from transformers import pipeline
+from transformers import pipeline
 from operator import itemgetter
 import streamlit as st
 #import numpy as np
